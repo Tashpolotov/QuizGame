@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img_bg2"
+    tools:context=".fragment.onboard.fragment.OnBoardFragment4">
+
+    <ImageView
+        android:id="@+id/img_zeus"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_zeus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="160dp"/>
+
+
+
+    <ImageView
+        android:id="@+id/img_enemy"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_enemy1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="70dp"/>
+
+
+    <ImageView
+        android:id="@+id/img_enemy2"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_enemy2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="90dp"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/bg4"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="@id/img_196"
+            app:layout_constraintEnd_toEndOf="@id/img_199"
+            android:gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:textColor="@color/white"
+            android:text="@string/poseidon_it_is_not_enough_to_claim_a_title_dear_brother_you_must_earn_it_know_every_tale_every_myth_every_nuance_of_our_world_only_then_can_you_truly_claim_dominion_over_olympus"
+
+            />
+
+
+
+        <ImageView
+            android:id="@+id/img_196"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_196"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            />
+
+        <ImageView
+            android:id="@+id/img_197"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_197"
+            app:layout_constraintBottom_toTopOf="@id/img_196"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_rest60"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/rectangle_60"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="56dp"
+            android:layout_marginStart="7dp"
+            />
+
+        <ImageView
+            android:id="@+id/img_rest61"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rectangle_61"
+            app:layout_constraintTop_toTopOf="@id/img_197"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="7dp"
+            android:layout_marginHorizontal="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            />
+
+        <ImageView
+            android:id="@+id/img_199"
+            android:layout_width="wrap_content"
+            android:layout_height="144dp"
+            android:src="@drawable/group_199"
+            android:layout_marginTop="6dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/img_rest62"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rectangle_61"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginHorizontal="52dp"
+            app:layout_constraintEnd_toEndOf="parent"
+
+
+            />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@drawable/btn_back"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toStartOf="@id/img_next"
+
+            />
+
+        <ImageView
+            android:id="@+id/img_next"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/img_back"
+            android:src="@drawable/btn_next"
+            android:scaleType="centerCrop"
+            android:layout_marginStart="80dp"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
